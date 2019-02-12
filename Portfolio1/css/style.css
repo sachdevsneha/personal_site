@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie|Indie+Flower|Crimson+Text|Lobster|Quattrocento+Sans|Satisfy|Tangerine');
+
+body,
+html{
+    font-family: 'Quattrocento Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/*a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+*/
+/*a:hover{
+    text-decoration: underline;
+}*/
+
+p {
+    color: black;
+    font-size: 19px;
+}
+
+.circle{
+    max-width: 100%;
+    border-radius: 70%;
+}
+
+
+.btn {
+    margin-top: 15px;
+    margin-left: 70px;
+    color: #037367;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.animated:hover {
+    animation-play-state: paused;
+}
+    
+#header{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+   
+}
+
+#menu .navicon {
+    display:none;
+}
+
+#menu nav{
+  text-align: center;
+    display: block;
+    background-color: black;
+     margin-right: 15px;
+    margin-top: 0px;
+    width: 100%;
+
+}
+
+#menu nav ul{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+
+#menu nav li{
+    display: inline-block;
+    list-style-type: none;
+   
+
+}
+
+#menu nav li a{
+    text-decoration: none;
+    color: #037367 ;
+    font-size: 30px;
+ padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+   font-family: 'Cookie', cursive;
+}
+
+#menu nav li a:hover{
+    background-color: #037367;
+    color: white;
+  
+}
+
+#menu nav li:last-child{
+    margin-right: 5px;
+}
+
+#wrapper{
+    width:100%;
+    margin: auto;
+}
+
+.section{
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 60px;
+    background-size: cover;
+  background-position: center center;
+   /* font-size: 30px;
+    font-style: oblique;*/
+}
+
+.section h2{
+    text-align: center; 
+  color: #037367;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.section h3{
+    font-size: 2em;
+   font-family: 'Satisfy', cursive;
+    color: #037367;
+}
+
+.section h4 {
+    color:#037367;
+}
+.section article{
+   color: white;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 200px;
+    font-family: 'Lobster', cursive;
+}
+
+
+#home{
+    background-image:url("/images/coffee.jpg");
+   /* background-size: cover;
+    background-position: center center;*/
+    height: 850px;
+}
+
+#home h3 {
+     margin-top: 300px;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+
+/*@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.bounceIn  {
+    animation: bounceIn 2s;
+    margin-top: 300px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.bounceIn h3{
+    color: #037367;
+}*/
+
+/*@keyframes shake {
+ from {
+    -webkit-transform: rotate(20deg);
+ }
+ to {
+   -webkit-transform-origin:center center;
+   -webkit-transform: rotate(-20deg);
+ }
+}
+
+.shake {
+    animation: shake 0.5s ease-in-out infinite;
+}*/
+
+
+
+/*#home h2 {
+   margin-top: 160px;
+}*/
+
+/*#home h2{
+    margin-top: 350px;
+}*/
+
+#skills{
+    background-color: white;
+}
+
+#skills p {
+    color:#037367;
+}
+
+
+
+#about{
+    background-color: white;
+}
+
+#experience {
+    background-color: oldlace;
+}
+
+#experience p {
+    font-size: 16px;
+}
+
+#contact{
+    background-color:#037367;
+    padding-bottom: 200px;
+}
+
+#contact h2 {
+    color: white;
+}
+
+.social  {
+    margin-left: 550px;
+}
+
+.social a {
+    color: white;
+    font-size: 20px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.social *:hover {
+     opacity: 1; 
+    filter:alpha(opacity=100); 
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.email span{
+    font-size: 20px;
+}
+
+/*#contact .row a { 
+    color: #FFFFFF; 
+    opacity: 0.6; 
+    filter:alpha(opacity=60);
+    margin-left: 150px;
+}
+
+
+#contact .row *:hover{
+     opacity: 1; 
+    filter:alpha(opacity=100); 
+    text-decoration: none; 
+}
+*/
+.email{
+    margin-top: 125px;
+}
+
+
+.email a { 
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    display: block; 
+    line-height: 32px; 
+    margin-bottom: 20px; 
+    opacity: 0.6; 
+    filter:alpha(opacity=60); 
+    font-family: 'Crimson Text', serif;
+    color: white;
+
+}
+
+.email *:hover {
+    opacity: 1; 
+    filter:alpha(opacity=100); 
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+#contact a:hover { 
+    opacity: 1; 
+    filter:alpha(opacity=100); 
+    text-decoration: none; 
+}
+
+#contact p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+.container{
+     width: 100%; 
+        
+    
+}
+
+.row {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 35px;
+    width: 100%;
+    height: auto;
+}
+
+/*.exp-row:before, 
+    .exp-row:after {
+        content:"";
+          display: table ;
+        clear:both;
+    }
+
+.exp-row {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 15px;
+    margin-left: 15px;
+     
+}*/
+
+[class*="col-"] {
+   float: left;
+    
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;
+width: 225px;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*footer {
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+    font-family: sans-serif;
+    
+}*/
+
+.fixpoint {
+    background-attachment: fixed;
+}
+
+@media screen and (max-width:650px){
+   #menu .navicon {
+    display: block;
+        float:right;
+       font-size: 45px;
+    
+    }
+    #menu nav {
+        display: none;
+        width: 100%;
+        
+    }
+    #menu nav ul li{
+        width:100%;
+       background-color: black;
+       
+}
+    
+    #menu nav ul li a{
+         color: white;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .circle{
+        max-width: 75%;
+    }
+    
+    .social {
+        margin-left: 170px;
+    }
+}
